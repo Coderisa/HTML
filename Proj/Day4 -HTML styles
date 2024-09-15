@@ -1,0 +1,57 @@
+//HTML Styles (attribute)
+Ex-
+1)Text color
+<!DOCTYPE html>
+<html>
+<body>
+<p>I am normal</p>
+<p style="color:red;">I am red</p>   //<tagname style="property:value;">
+<p style="color:blue;">I am blue</p>
+<p style="font-size:50px;">I am big</p>
+</body>
+</html>
+
+2)Background Color
+The CSS background-color property defines the background color for an HTML element.
+Example
+Set the background color for a page to powderblue:
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+
+b)Set background color for two different elements:
+
+<body>
+<h1 style="background-color:powderblue;">This is a heading</h1> //only h1 ke aroud ka are will be blue
+<p style="background-color:tomato;">This is a paragraph.</p>
+</body>
+
+3)The CSS font-family property defines the font to be used for an HTML element:
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+</body>
+</html>
+
+4)Font size
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+</body>
+</html>
+5)Text Alignment
+The CSS text-align property defines the horizontal text alignment for an HTML element:
+Matlab text ko cente me rakhe ,ya left ya right
+
+Example
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+
+
