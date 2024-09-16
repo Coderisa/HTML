@@ -1,1 +1,46 @@
+//HTML Text Formatting-HTML contains several elements for defining text with a special meaning.
+
+1)html bold element <b>...text... </b>
+<b>This text is bold</b>
+
+2)html strong elemnt <strong>...</strong>- defines text with strong importance. The content inside is typically displayed in bold.
+<strong>This text is important!</strong>
+
+3)HTML <i> and <em> Elements (italics and emphasize)
+<i>This text is italic</i>
+
+The HTML <em> element defines emphasized text. The content inside is typically displayed in italic.
+Tip: A screen reader will pronounce the words in <em> with an emphasis, using verbal stress.
+<em>This text is emphasized</em>
+
+4)HTML <small> Element
+The HTML <small> element defines smaller text:
+<small>This is some smaller text.</small>
+
+5)HTML <mark> Element (highlighted)
+The HTML <mark> element defines text that should be marked or highlighted:
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+6)HTML <del> Element -delete(striked)
+The HTML <del> element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:
+<p>My favorite color is <del>blue</del> red.</p>
+
+7)HTML <ins> Element -insert(underlined)
+The HTML <ins> element defines a text that has been inserted into a document. Browsers will usually underline inserted text:
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>//here blue will be striked and red will be underline
+
+8)HTML <sub> Element -subscript
+The HTML <sub> element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
+<p>This is <sub>subscripted</sub> text.</p>
+
+9)HTML <sup> Element -superscript
+The HTML <sup> element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
+<p>This is <sup>superscripted</sup> text.</p>
+
+
+
+
+
+
+
 
