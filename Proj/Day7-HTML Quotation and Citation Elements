@@ -1,0 +1,76 @@
+//HTML Quotation and Citation Elements
+1) <q> tag  for Short Quotations
+Browsers normally insert quotation marks around the quotation.
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+OUTPUT-WWF's goal is to: "Build a future where people live in harmony with nature."
+
+2)<abbr> for Abbreviations
+The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+
+Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+OUTPUT-The WHO was founded in 1948.//yahan WHO dotted underlined hai .uske upar hover karne se uska full form dikhayi dete hai
+
+3)<address> for Contact Information
+The HTML <address> tag defines the contact information for the author/owner of a document or an article.
+The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.
+<!DOCTYPE html>
+<html>
+<body>
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+<address>
+Written by John Doe.<br> //<BR> MATLB LINE BREAK TAG//Y EBAS SABKUCH ITALICS ME DISPALY KARDETA HAI
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+</body>
+</html>
+
+4)<cite> for Work Title -citation ya refrence samaj ke lean karlo
+The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+Note: A person's name is not the title of a work.
+The text in the <cite> element usually renders in italic.
+
+Example
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>//ISME THE SCREAM ITALICS MEIN DIPLAY HO RAHA HAI.
+
+5)<bdo> for Bi-Directional Override
+BDO stands for Bi-Directional Override.
+The HTML <bdo> tag is used to override the current text direction:
+<bdo dir="rtl">This text will be written from right to left</bdo>
+OUTPUT-tfel ot....
+
+6)<blockquote> for Quotations
+The HTML <blockquote> element defines a section that is quoted from another source.
+Browsers usually indent <blockquote> elements.//hame screen pr kuchextra visible nahi hota hai but our broweser or webit eknows at the backend ki hamne iko kahi aor website se banaya hai.
+<!DOCTYPE html>
+<html>
+<body>
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+
+</body>
+</html>
+
+****DIFFREENCE btw cite tag and cite atribute*********
+cite tag as mentined above used to define the title of a creative work.
+Is visisble to users .
+
+cite attribute -Purpose: The cite attribute provides a reference URL to the source of a quote or changed text23.
+Usage: It is used within elements like <blockquote>, <q>, <del>, and <ins> to specify the source of the content.
+Visibility -is not visible to users but adds metadata to the element.
+
+
+
+
+
+
+
