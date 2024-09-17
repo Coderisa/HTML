@@ -1,1 +1,41 @@
 
+The HTML style attribute- is used to add styles to an element, such as color, font, size, and more.
+1)BACKGROUND COLOR propery
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+
+2)TEXT COLOR WITH COLOR PROPERY
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+3)BORDER COLOR
+<h1 style="border:2px solid Tomato;">Hello World</h1> //here 2px means border ki width
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>//solid: The border style is solid (as opposed to dashed, dotted, etc.).
+//tomato is a shade of red
+
+4)Color Values
+In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Same as color name "Tomato":</p>
+
+<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+<h1 style="background-color:#ff6347;">#ff6347</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>//**HSL is a color format in HTML that stands for hue, saturation, and lightness:**
+
+<p>Same as color name "Tomato", but 50% transparent:</p>//   RGBA stands for "red, green, blue, alpha". It's a color model that extends the RGB color model by adding an alpha channel to specify the opacity of a color. 
+//Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+//jinta jyada kam apha ki value hogi vo utna transprent hota jayega 0 par white bacground and 1 pr red background
+
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+
+<p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
+
+</body>
+</html>
+
+
